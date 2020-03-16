@@ -16,8 +16,8 @@ Source: [ecdc.europa.eu](https://www.ecdc.europa.eu/en/publications-data/downloa
   {
     "date": "yyyy-mm-dd",
     "[geoId]": {
-      newCases: 0,
-      newDeaths: 0,
+      "newCases": 0,
+      "newDeaths": 0,
     }
   }
 ]
