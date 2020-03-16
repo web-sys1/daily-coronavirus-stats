@@ -1,4 +1,4 @@
 # Daily Coronavirus Statistics
 
-Source: [ecdc.europa.eu](https://www.ecdc.europa.eu/sites/default/files/documents/COVID-19-geographic-disbtribution-worldwide-${d}.xls)
+Source: [ecdc.europa.eu](https://www.ecdc.europa.eu/en/publications-data/download-todays-data-geographic-distribution-covid-19-cases-worldwide)
 
