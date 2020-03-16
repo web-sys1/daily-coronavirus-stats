@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "node -r esm index.js",
+    "dev": "npm run update-data",
+    "update-data": "node -r esm index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Tim (https://tiim.ch/)",
