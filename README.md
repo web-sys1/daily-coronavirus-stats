@@ -43,6 +43,7 @@ A newline separated list of all country full names
 ]
 ```
 
+### Scrape Metadata
 * [Metadata (json)](https://github.com/Tiim/daily-coronavirus-stats/blob/data/meta.json)
 
 ```json
