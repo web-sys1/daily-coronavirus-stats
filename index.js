@@ -7,13 +7,19 @@ import {writeFileSync} from 'fs';
 start();
 
 async function start() {
-  await downloadCurrentData('data.xls');
+  const sourceUpdate = await downloadCurrentData('data.xls');
   await wait(2000); // Hack to make sure the file is properly closed
   const rawData = parse('data.xls');
   const {timeSeries, countries} = formatData(rawData);
+  const meta = {
+    lastScrape: new Date(),
+    lastSourceUpdate: sourceUpdate,
+  }
+
   writeFileSync('data/data.json',JSON.stringify(timeSeries, null, 2));
   writeFileSync('data/countries.json',JSON.stringify(countries, null, 2));
   writeFileSync('data/countries.txt',countryList(countries));
+  writeFileSync('data/meta.json', JSON.stringify(meta, null, 2));
   console.log(rawData.length + ' total entries');
   console.log(countries.length + ' countries');
   console.log(timeSeries.length + ' days');
@@ -82,8 +88,9 @@ async function downloadCurrentData(file) {
   
   let error = 0;
   let res;
+  let d;
   while (error < 10) {
-    const d = getDate(date, error);
+    d = getDate(date, error);
     const url = `https://www.ecdc.europa.eu/sites/default/files/documents/COVID-19-geographic-disbtribution-worldwide-${d}.xls`
     res = await fetch(url);
     if (res.status !== 200) {
@@ -103,4 +110,5 @@ async function downloadCurrentData(file) {
     res.body.on('error', reject);
     res.body.on('finish', resolve);
   });
+  return d;
 }
