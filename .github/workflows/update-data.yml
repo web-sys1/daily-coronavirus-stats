@@ -24,6 +24,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
     - run: npm ci
     - run: npm run update-data
+    - run: cd data; git init; git add .; git commit -m 'Update data'
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
