@@ -7,9 +7,9 @@ import { writeFileSync } from "fs";
 start();
 
 async function start() {
-  const sourceUpdate = await downloadCurrentData("data.xls");
+  const sourceUpdate = await downloadCurrentData("data.xlsx");
   await wait(2000); // Hack to make sure the file is properly closed
-  const rawData = parse("data.xls");
+  const rawData = parse("data.xlsx");
   const { timeSeries, countries } = formatData(rawData);
   const meta = {
     lastScrape: new Date(),
@@ -45,8 +45,7 @@ function formatData(data) {
         };
         acc.countries[cur.geoId] = {
           geoId: cur.geoId,
-          countryName: cur.countryName,
-          eu: cur.eu
+          countryName: cur.countryName
         };
         return acc;
       },
@@ -73,12 +72,13 @@ function parse(file) {
     .sheet_to_json(ws, {
       header: [
         "date",
-        "countryName",
+        "day",
+        "month",
+        "year",
         "newCases",
         "newDeaths",
-        "geoId",
-        "_gaul1nuts1",
-        "eu"
+        "countryName",
+        "geoId"
       ],
       dateNF: "yyyy-mm-dd"
     })
@@ -99,7 +99,7 @@ async function downloadCurrentData(file) {
   let d;
   while (error < 10) {
     d = getDate(date, error);
-    const url = `https://www.ecdc.europa.eu/sites/default/files/documents/COVID-19-geographic-disbtribution-worldwide-${d}.xls`;
+    const url = `https://www.ecdc.europa.eu/sites/default/files/documents/COVID-19-geographic-disbtribution-worldwide-${d}.xlsx`;
     res = await fetch(url);
     if (res.status !== 200) {
       console.log("File not found for date " + d);
