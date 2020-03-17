@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "npm run update-data",
     "update-data": "node -r esm index.js",
+    "commit-data": "./commit.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Tim (https://tiim.ch/)",
