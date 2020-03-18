@@ -91,26 +91,53 @@ function getDate(date, daysAgo) {
   return d.toISOString().substr(0, 10);
 }
 
+function getNextUrl(data) {
+  //Default data
+  if (data == null) {
+    data = {
+      xlsx: false,
+      daysAgo: 0
+    };
+  }
+  // abort if 10 days tried
+  if (data.daysAgo > 10) {
+    return null;
+  }
+  const d = getDate(new Date(), data.daysAgo);
+  const ext = data.xlsx ? "xlsx" : "xls";
+  const url = `https://www.ecdc.europa.eu/sites/default/files/documents/COVID-19-geographic-disbtribution-worldwide-${d}.${ext}`;
+  return {
+    xlsx: !data.xlsx,
+    daysAgo: data.xlsx ? data.daysAgo + 1 : data.daysAgo,
+    url,
+    file: `date: ${d}, type: ${ext}`,
+    meta: {
+      url,
+      date: d,
+      fileExtension: ext
+    }
+  };
+}
+
 async function downloadCurrentData(file) {
   let date = new Date();
 
-  let error = 0;
   let res;
-  let d;
-  while (error < 10) {
-    d = getDate(date, error);
-    const url = `https://www.ecdc.europa.eu/sites/default/files/documents/COVID-19-geographic-disbtribution-worldwide-${d}.xlsx`;
-    res = await fetch(url);
+  let data = getNextUrl();
+  while (data) {
+    res = await fetch(data.url);
     if (res.status !== 200) {
-      console.log("File not found for date " + d);
-      error += 1;
+      console.log("File not found " + data.file);
       await wait(3000);
     } else {
-      console.log("Successful for date " + d);
-      error = 0;
+      console.log("Successful " + data.file);
       break;
     }
+    data = getNextUrl(data);
   }
+
+  const headers = res.headers;
+  const header_lastModified = headers.get("last-modified");
 
   const fileStream = createWriteStream(file);
   await new Promise((resolve, reject) => {
@@ -118,5 +145,5 @@ async function downloadCurrentData(file) {
     res.body.on("error", reject);
     res.body.on("finish", resolve);
   });
-  return d;
+  return { ...data.meta, header_lastModified };
 }
