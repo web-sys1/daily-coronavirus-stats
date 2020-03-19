@@ -2,7 +2,8 @@ name: Update Data
 
 on:
   schedule:
-  - cron: "30 13 * * *"
+  - cron: "0,30 10-13 * * *"
+  # Run every 30 minutes from 10 to 13:30
   push:
     branches:
       - master
