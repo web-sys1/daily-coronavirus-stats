@@ -1,0 +1,822 @@
+[
+  {
+    "geoId": "AF",
+    "countryName": "Afghanistan"
+  },
+  {
+    "geoId": "AL",
+    "countryName": "Albania"
+  },
+  {
+    "geoId": "DZ",
+    "countryName": "Algeria"
+  },
+  {
+    "geoId": "AD",
+    "countryName": "Andorra"
+  },
+  {
+    "geoId": "AO",
+    "countryName": "Angola"
+  },
+  {
+    "geoId": "AI",
+    "countryName": "Anguilla"
+  },
+  {
+    "geoId": "AG",
+    "countryName": "Antigua_and_Barbuda"
+  },
+  {
+    "geoId": "AR",
+    "countryName": "Argentina"
+  },
+  {
+    "geoId": "AM",
+    "countryName": "Armenia"
+  },
+  {
+    "geoId": "AW",
+    "countryName": "Aruba"
+  },
+  {
+    "geoId": "AU",
+    "countryName": "Australia"
+  },
+  {
+    "geoId": "AT",
+    "countryName": "Austria"
+  },
+  {
+    "geoId": "AZ",
+    "countryName": "Azerbaijan"
+  },
+  {
+    "geoId": "BS",
+    "countryName": "Bahamas"
+  },
+  {
+    "geoId": "BH",
+    "countryName": "Bahrain"
+  },
+  {
+    "geoId": "BD",
+    "countryName": "Bangladesh"
+  },
+  {
+    "geoId": "BB",
+    "countryName": "Barbados"
+  },
+  {
+    "geoId": "BY",
+    "countryName": "Belarus"
+  },
+  {
+    "geoId": "BE",
+    "countryName": "Belgium"
+  },
+  {
+    "geoId": "BZ",
+    "countryName": "Belize"
+  },
+  {
+    "geoId": "BJ",
+    "countryName": "Benin"
+  },
+  {
+    "geoId": "BM",
+    "countryName": "Bermuda"
+  },
+  {
+    "geoId": "BT",
+    "countryName": "Bhutan"
+  },
+  {
+    "geoId": "BO",
+    "countryName": "Bolivia"
+  },
+  {
+    "geoId": "BQ",
+    "countryName": "Bonaire, Saint Eustatius and Saba"
+  },
+  {
+    "geoId": "BA",
+    "countryName": "Bosnia_and_Herzegovina"
+  },
+  {
+    "geoId": "BW",
+    "countryName": "Botswana"
+  },
+  {
+    "geoId": "BR",
+    "countryName": "Brazil"
+  },
+  {
+    "geoId": "VG",
+    "countryName": "British_Virgin_Islands"
+  },
+  {
+    "geoId": "BN",
+    "countryName": "Brunei_Darussalam"
+  },
+  {
+    "geoId": "BG",
+    "countryName": "Bulgaria"
+  },
+  {
+    "geoId": "BF",
+    "countryName": "Burkina_Faso"
+  },
+  {
+    "geoId": "BI",
+    "countryName": "Burundi"
+  },
+  {
+    "geoId": "KH",
+    "countryName": "Cambodia"
+  },
+  {
+    "geoId": "CM",
+    "countryName": "Cameroon"
+  },
+  {
+    "geoId": "CA",
+    "countryName": "Canada"
+  },
+  {
+    "geoId": "CV",
+    "countryName": "Cape_Verde"
+  },
+  {
+    "geoId": "JPG11668",
+    "countryName": "Cases_on_an_international_conveyance_Japan"
+  },
+  {
+    "geoId": "KY",
+    "countryName": "Cayman_Islands"
+  },
+  {
+    "geoId": "CF",
+    "countryName": "Central_African_Republic"
+  },
+  {
+    "geoId": "TD",
+    "countryName": "Chad"
+  },
+  {
+    "geoId": "CL",
+    "countryName": "Chile"
+  },
+  {
+    "geoId": "CN",
+    "countryName": "China"
+  },
+  {
+    "geoId": "CO",
+    "countryName": "Colombia"
+  },
+  {
+    "geoId": "CG",
+    "countryName": "Congo"
+  },
+  {
+    "geoId": "CR",
+    "countryName": "Costa_Rica"
+  },
+  {
+    "geoId": "CI",
+    "countryName": "Cote_dIvoire"
+  },
+  {
+    "geoId": "HR",
+    "countryName": "Croatia"
+  },
+  {
+    "geoId": "CU",
+    "countryName": "Cuba"
+  },
+  {
+    "geoId": "CW",
+    "countryName": "CuraÃ§ao"
+  },
+  {
+    "geoId": "CY",
+    "countryName": "Cyprus"
+  },
+  {
+    "geoId": "CZ",
+    "countryName": "Czech_Republic"
+  },
+  {
+    "geoId": "CD",
+    "countryName": "Democratic_Republic_of_the_Congo"
+  },
+  {
+    "geoId": "DK",
+    "countryName": "Denmark"
+  },
+  {
+    "geoId": "DJ",
+    "countryName": "Djibouti"
+  },
+  {
+    "geoId": "DM",
+    "countryName": "Dominica"
+  },
+  {
+    "geoId": "DO",
+    "countryName": "Dominican_Republic"
+  },
+  {
+    "geoId": "EC",
+    "countryName": "Ecuador"
+  },
+  {
+    "geoId": "EG",
+    "countryName": "Egypt"
+  },
+  {
+    "geoId": "SV",
+    "countryName": "El_Salvador"
+  },
+  {
+    "geoId": "GQ",
+    "countryName": "Equatorial_Guinea"
+  },
+  {
+    "geoId": "ER",
+    "countryName": "Eritrea"
+  },
+  {
+    "geoId": "EE",
+    "countryName": "Estonia"
+  },
+  {
+    "geoId": "SZ",
+    "countryName": "Eswatini"
+  },
+  {
+    "geoId": "ET",
+    "countryName": "Ethiopia"
+  },
+  {
+    "geoId": "FK",
+    "countryName": "Falkland_Islands_(Malvinas)"
+  },
+  {
+    "geoId": "FO",
+    "countryName": "Faroe_Islands"
+  },
+  {
+    "geoId": "FJ",
+    "countryName": "Fiji"
+  },
+  {
+    "geoId": "FI",
+    "countryName": "Finland"
+  },
+  {
+    "geoId": "FR",
+    "countryName": "France"
+  },
+  {
+    "geoId": "PF",
+    "countryName": "French_Polynesia"
+  },
+  {
+    "geoId": "GA",
+    "countryName": "Gabon"
+  },
+  {
+    "geoId": "GM",
+    "countryName": "Gambia"
+  },
+  {
+    "geoId": "GE",
+    "countryName": "Georgia"
+  },
+  {
+    "geoId": "DE",
+    "countryName": "Germany"
+  },
+  {
+    "geoId": "GH",
+    "countryName": "Ghana"
+  },
+  {
+    "geoId": "GI",
+    "countryName": "Gibraltar"
+  },
+  {
+    "geoId": "EL",
+    "countryName": "Greece"
+  },
+  {
+    "geoId": "GL",
+    "countryName": "Greenland"
+  },
+  {
+    "geoId": "GD",
+    "countryName": "Grenada"
+  },
+  {
+    "geoId": "GU",
+    "countryName": "Guam"
+  },
+  {
+    "geoId": "GT",
+    "countryName": "Guatemala"
+  },
+  {
+    "geoId": "GG",
+    "countryName": "Guernsey"
+  },
+  {
+    "geoId": "GN",
+    "countryName": "Guinea"
+  },
+  {
+    "geoId": "GW",
+    "countryName": "Guinea_Bissau"
+  },
+  {
+    "geoId": "GY",
+    "countryName": "Guyana"
+  },
+  {
+    "geoId": "HT",
+    "countryName": "Haiti"
+  },
+  {
+    "geoId": "VA",
+    "countryName": "Holy_See"
+  },
+  {
+    "geoId": "HN",
+    "countryName": "Honduras"
+  },
+  {
+    "geoId": "HU",
+    "countryName": "Hungary"
+  },
+  {
+    "geoId": "IS",
+    "countryName": "Iceland"
+  },
+  {
+    "geoId": "IN",
+    "countryName": "India"
+  },
+  {
+    "geoId": "ID",
+    "countryName": "Indonesia"
+  },
+  {
+    "geoId": "IR",
+    "countryName": "Iran"
+  },
+  {
+    "geoId": "IQ",
+    "countryName": "Iraq"
+  },
+  {
+    "geoId": "IE",
+    "countryName": "Ireland"
+  },
+  {
+    "geoId": "IM",
+    "countryName": "Isle_of_Man"
+  },
+  {
+    "geoId": "IL",
+    "countryName": "Israel"
+  },
+  {
+    "geoId": "IT",
+    "countryName": "Italy"
+  },
+  {
+    "geoId": "JM",
+    "countryName": "Jamaica"
+  },
+  {
+    "geoId": "JP",
+    "countryName": "Japan"
+  },
+  {
+    "geoId": "JE",
+    "countryName": "Jersey"
+  },
+  {
+    "geoId": "JO",
+    "countryName": "Jordan"
+  },
+  {
+    "geoId": "KZ",
+    "countryName": "Kazakhstan"
+  },
+  {
+    "geoId": "KE",
+    "countryName": "Kenya"
+  },
+  {
+    "geoId": "XK",
+    "countryName": "Kosovo"
+  },
+  {
+    "geoId": "KW",
+    "countryName": "Kuwait"
+  },
+  {
+    "geoId": "KG",
+    "countryName": "Kyrgyzstan"
+  },
+  {
+    "geoId": "LA",
+    "countryName": "Laos"
+  },
+  {
+    "geoId": "LV",
+    "countryName": "Latvia"
+  },
+  {
+    "geoId": "LB",
+    "countryName": "Lebanon"
+  },
+  {
+    "geoId": "LR",
+    "countryName": "Liberia"
+  },
+  {
+    "geoId": "LY",
+    "countryName": "Libya"
+  },
+  {
+    "geoId": "LI",
+    "countryName": "Liechtenstein"
+  },
+  {
+    "geoId": "LT",
+    "countryName": "Lithuania"
+  },
+  {
+    "geoId": "LU",
+    "countryName": "Luxembourg"
+  },
+  {
+    "geoId": "MG",
+    "countryName": "Madagascar"
+  },
+  {
+    "geoId": "MW",
+    "countryName": "Malawi"
+  },
+  {
+    "geoId": "MY",
+    "countryName": "Malaysia"
+  },
+  {
+    "geoId": "MV",
+    "countryName": "Maldives"
+  },
+  {
+    "geoId": "ML",
+    "countryName": "Mali"
+  },
+  {
+    "geoId": "MT",
+    "countryName": "Malta"
+  },
+  {
+    "geoId": "MR",
+    "countryName": "Mauritania"
+  },
+  {
+    "geoId": "MU",
+    "countryName": "Mauritius"
+  },
+  {
+    "geoId": "MX",
+    "countryName": "Mexico"
+  },
+  {
+    "geoId": "MD",
+    "countryName": "Moldova"
+  },
+  {
+    "geoId": "MC",
+    "countryName": "Monaco"
+  },
+  {
+    "geoId": "MN",
+    "countryName": "Mongolia"
+  },
+  {
+    "geoId": "ME",
+    "countryName": "Montenegro"
+  },
+  {
+    "geoId": "MS",
+    "countryName": "Montserrat"
+  },
+  {
+    "geoId": "MA",
+    "countryName": "Morocco"
+  },
+  {
+    "geoId": "MZ",
+    "countryName": "Mozambique"
+  },
+  {
+    "geoId": "MM",
+    "countryName": "Myanmar"
+  },
+  {
+    "geoId": "NA",
+    "countryName": "Namibia"
+  },
+  {
+    "geoId": "NP",
+    "countryName": "Nepal"
+  },
+  {
+    "geoId": "NL",
+    "countryName": "Netherlands"
+  },
+  {
+    "geoId": "NC",
+    "countryName": "New_Caledonia"
+  },
+  {
+    "geoId": "NZ",
+    "countryName": "New_Zealand"
+  },
+  {
+    "geoId": "NI",
+    "countryName": "Nicaragua"
+  },
+  {
+    "geoId": "NE",
+    "countryName": "Niger"
+  },
+  {
+    "geoId": "NG",
+    "countryName": "Nigeria"
+  },
+  {
+    "geoId": "MK",
+    "countryName": "North_Macedonia"
+  },
+  {
+    "geoId": "MP",
+    "countryName": "Northern_Mariana_Islands"
+  },
+  {
+    "geoId": "NO",
+    "countryName": "Norway"
+  },
+  {
+    "geoId": "OM",
+    "countryName": "Oman"
+  },
+  {
+    "geoId": "PK",
+    "countryName": "Pakistan"
+  },
+  {
+    "geoId": "PS",
+    "countryName": "Palestine"
+  },
+  {
+    "geoId": "PA",
+    "countryName": "Panama"
+  },
+  {
+    "geoId": "PG",
+    "countryName": "Papua_New_Guinea"
+  },
+  {
+    "geoId": "PY",
+    "countryName": "Paraguay"
+  },
+  {
+    "geoId": "PE",
+    "countryName": "Peru"
+  },
+  {
+    "geoId": "PH",
+    "countryName": "Philippines"
+  },
+  {
+    "geoId": "PL",
+    "countryName": "Poland"
+  },
+  {
+    "geoId": "PT",
+    "countryName": "Portugal"
+  },
+  {
+    "geoId": "PR",
+    "countryName": "Puerto_Rico"
+  },
+  {
+    "geoId": "QA",
+    "countryName": "Qatar"
+  },
+  {
+    "geoId": "RO",
+    "countryName": "Romania"
+  },
+  {
+    "geoId": "RU",
+    "countryName": "Russia"
+  },
+  {
+    "geoId": "RW",
+    "countryName": "Rwanda"
+  },
+  {
+    "geoId": "BLM",
+    "countryName": "Saint_Barthelemy"
+  },
+  {
+    "geoId": "KN",
+    "countryName": "Saint_Kitts_and_Nevis"
+  },
+  {
+    "geoId": "LC",
+    "countryName": "Saint_Lucia"
+  },
+  {
+    "geoId": "VC",
+    "countryName": "Saint_Vincent_and_the_Grenadines"
+  },
+  {
+    "geoId": "SM",
+    "countryName": "San_Marino"
+  },
+  {
+    "geoId": "SA",
+    "countryName": "Saudi_Arabia"
+  },
+  {
+    "geoId": "SN",
+    "countryName": "Senegal"
+  },
+  {
+    "geoId": "RS",
+    "countryName": "Serbia"
+  },
+  {
+    "geoId": "SC",
+    "countryName": "Seychelles"
+  },
+  {
+    "geoId": "SL",
+    "countryName": "Sierra_Leone"
+  },
+  {
+    "geoId": "SG",
+    "countryName": "Singapore"
+  },
+  {
+    "geoId": "SX",
+    "countryName": "Sint_Maarten"
+  },
+  {
+    "geoId": "SK",
+    "countryName": "Slovakia"
+  },
+  {
+    "geoId": "SI",
+    "countryName": "Slovenia"
+  },
+  {
+    "geoId": "SO",
+    "countryName": "Somalia"
+  },
+  {
+    "geoId": "ZA",
+    "countryName": "South_Africa"
+  },
+  {
+    "geoId": "KR",
+    "countryName": "South_Korea"
+  },
+  {
+    "geoId": "SS",
+    "countryName": "South_Sudan"
+  },
+  {
+    "geoId": "ES",
+    "countryName": "Spain"
+  },
+  {
+    "geoId": "LK",
+    "countryName": "Sri_Lanka"
+  },
+  {
+    "geoId": "SD",
+    "countryName": "Sudan"
+  },
+  {
+    "geoId": "SR",
+    "countryName": "Suriname"
+  },
+  {
+    "geoId": "SE",
+    "countryName": "Sweden"
+  },
+  {
+    "geoId": "CH",
+    "countryName": "Switzerland"
+  },
+  {
+    "geoId": "SY",
+    "countryName": "Syria"
+  },
+  {
+    "geoId": "TW",
+    "countryName": "Taiwan"
+  },
+  {
+    "geoId": "TH",
+    "countryName": "Thailand"
+  },
+  {
+    "geoId": "TL",
+    "countryName": "Timor_Leste"
+  },
+  {
+    "geoId": "TG",
+    "countryName": "Togo"
+  },
+  {
+    "geoId": "TT",
+    "countryName": "Trinidad_and_Tobago"
+  },
+  {
+    "geoId": "TN",
+    "countryName": "Tunisia"
+  },
+  {
+    "geoId": "TR",
+    "countryName": "Turkey"
+  },
+  {
+    "geoId": "TC",
+    "countryName": "Turks_and_Caicos_islands"
+  },
+  {
+    "geoId": "UG",
+    "countryName": "Uganda"
+  },
+  {
+    "geoId": "UA",
+    "countryName": "Ukraine"
+  },
+  {
+    "geoId": "AE",
+    "countryName": "United_Arab_Emirates"
+  },
+  {
+    "geoId": "UK",
+    "countryName": "United_Kingdom"
+  },
+  {
+    "geoId": "TZ",
+    "countryName": "United_Republic_of_Tanzania"
+  },
+  {
+    "geoId": "US",
+    "countryName": "United_States_of_America"
+  },
+  {
+    "geoId": "VI",
+    "countryName": "United_States_Virgin_Islands"
+  },
+  {
+    "geoId": "UY",
+    "countryName": "Uruguay"
+  },
+  {
+    "geoId": "UZ",
+    "countryName": "Uzbekistan"
+  },
+  {
+    "geoId": "VE",
+    "countryName": "Venezuela"
+  },
+  {
+    "geoId": "VN",
+    "countryName": "Vietnam"
+  },
+  {
+    "geoId": "ZM",
+    "countryName": "Zambia"
+  },
+  {
+    "geoId": "ZW",
+    "countryName": "Zimbabwe"
+  }
+]
